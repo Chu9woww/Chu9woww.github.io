@@ -7,10 +7,8 @@ typedef struct Node{
 void change(int num, int R){
 	if(num == 0){
 		cout << 0;	
-		return;	
 	}
-	int s = num;
-	char y = 0;
+	int s = num, y = 0;
 	mystack *head = (mystack *)malloc(sizeof(mystack));
 	head->t = -1;
 	while(s){
